@@ -7,7 +7,7 @@ import transporte from '../assets/images/transporte.svg'
 import utilidades from '../assets/images/utilidades.svg'
 import { Icone } from "./UI"
 
-
+/* Estudar melhor amanha */
 
 export default (type) =>{
    
