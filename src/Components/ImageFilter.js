@@ -5,7 +5,7 @@ import outros from '../assets/images/outros.svg'
 import saude from '../assets/images/saude.svg'
 import transporte from '../assets/images/transporte.svg'
 import utilidades from '../assets/images/utilidades.svg'
-import { Icone } from "./UI"
+import {IconeTema } from "./UI"
 
 /* Estudar melhor amanha */
 
@@ -13,11 +13,11 @@ export default (type) =>{
    
 
     const Images ={
-        Restaurante : <Icone src={alimentacao} alt="Restaurante"/>,
-        default : <Icone src={outros} alt="Outros"/>,
-        Saude : <Icone src={saude} alt="Saude"/>,
-        Transporte : <Icone src={transporte} alt="Transporte"/>,
-        Utilidades : <Icone src={utilidades} alt="Utilidades"/>
+        Restaurante : <IconeTema src={alimentacao} alt="Restaurante"/>,
+        default : <IconeTema src={outros} alt="Outros"/>,
+        Saude : <IconeTema src={saude} alt="Saude"/>,
+        Transporte : <IconeTema src={transporte} alt="Transporte"/>,
+        Utilidades : <IconeTema src={utilidades} alt="Utilidades"/>
 
         
     }
